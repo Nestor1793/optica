@@ -1,0 +1,81 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.hero{
+    width: 100vh;
+    height: 100vh;
+    background-image: url(../img/Foto3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_container{
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav_link{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav_link a{
+    color: #5a5a5a;
+    display: inline-block;
+    justify-content: center;
+}
+
+.hero h1{
+    color: #5a5a5a;
+    text-transform: uppercase;
+}
+
+
+/* header */
+
+/* main */
+
+section{
+    width: 100vh;
+    height: 100vh;
+    background-color: blanchedalmond;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+picture img{
+    width: 80vw;   
+}
+
+/* section1 */
+
+
+
+/* section1 */
+
+
+
+
+
+/* main */
