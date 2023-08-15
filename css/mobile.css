@@ -72,7 +72,7 @@ font-family: 'Roboto', sans-serif; */
 
 /* section1 */
 
-.sector1{
+section{
     padding: 5%;
     display: flex;
     justify-content: center;
@@ -96,10 +96,83 @@ picture img{
     gap: 15px;
 }
 
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e9c46a;
+}
+
+button a{
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
 
 /* section1 */
 
+/* section2 */
 
+.sector_anteojos{
+    background: #f4a261;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sector_anteojos h3{
+    margin-top: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.carta2{
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.743) 25%, rgba(255,255,255,0) 100%), url(../img/Foto9.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.carta3{
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.743) 25%, rgba(255,255,255,0) 100%), url(../img/Foto6.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.carta4{
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.743) 25%, rgba(255,255,255,0) 100%), url(../img/Foto8.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+/* section2 */
 
 
 
